@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "cli":"ts-node ./src/index.ts",
-    "build":"tsc"
+    "cli": "ts-node ./src/index.ts",
+    "clean": "rimraf dist",
+    "build": "yarn clean && tsc"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
     "framework",
     "typescript"
   ],
+  "bin": {
+    "kipjs": "./dist/src/index.js"
+  },
   "author": "Felix Orinda",
   "license": "ISC",
   "bugs": {
@@ -28,7 +32,12 @@
   "devDependencies": {
     "@types/node": "^22.5.0",
     "nodemon": "^3.1.4",
+    "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "^12.1.0"
   }
 }
