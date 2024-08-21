@@ -4,7 +4,9 @@
   "description": "A nodejs backend framework tooling for development",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "cli":"ts-node ./src/index.ts",
+    "build":"tsc"
   },
   "repository": {
     "type": "git",
