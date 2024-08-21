@@ -1,0 +1,25 @@
+{
+  "name": "kipjs",
+  "version": "0.0.1",
+  "description": "A nodejs backend framework tooling for development",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forinda/kipjs.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "framework",
+    "typescript"
+  ],
+  "author": "Felix Orinda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forinda/kipjs/issues"
+  },
+  "homepage": "https://github.com/forinda/kipjs#readme"
+}
