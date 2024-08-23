@@ -1,0 +1,27 @@
+{
+  "name": "kipjs-cli",
+  "version": "0.0.1",
+  "description": "CLI interface for kipjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forinda/kipjs.git"
+  },
+  "keywords": [
+    "CLI",
+    "kipjs",
+    "nodejs"
+  ],
+  "author": "Felix Orinda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forinda/kipjs/issues"
+  },
+  "homepage": "https://github.com/forinda/kipjs#readme",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
